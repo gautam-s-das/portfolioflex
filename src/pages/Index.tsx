@@ -95,10 +95,13 @@ const Index = () => {
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <Button variant="outline" size="sm">
+               <a href="/Gautam_Das_fresher_2025.pdf" // put your resume file inside public/ folder
+                download="Gautam_Das_fresher_2025.pdf">
+                <Button variant="outline" size="sm">
                 <Download className="w-4 h-4 mr-1" />
-                Download CV
-              </Button>
+                  Download CV
+                </Button>
+              </a>
             </div>
           </div>
         </div>

@@ -85,7 +85,7 @@ export const projects: Project[] = [
     title: "Movie Recommendation System using ML",
     description: "Built a movie recommendation system where movies are searched by user preferences. It is a content-based recommendation system.",
     technologies: ["Python", "Machine Learning", "Pandas", "Scikit-learn"],
-    githubUrl: "https://github.com/gautam-s-das",
+    githubUrl: "https://github.com/gautam-s-das/Movie-recommendation-system",
     type: "data-analyst"
   },
   {
@@ -93,7 +93,7 @@ export const projects: Project[] = [
     title: "TextUtils - Text Processing App",
     description: "Developed a single-page app for text analysis and formatting, deployed on GitHub Pages. Features real-time text transformations such as word/character count and case conversions.",
     technologies: ["React.js", "Bootstrap", "JavaScript", "HTML", "CSS"],
-    githubUrl: "https://github.com/gautam-s-das",
+    githubUrl: "https://github.com/gautam-s-das/inotebook",
     type: "both"
   },
   {
@@ -101,22 +101,31 @@ export const projects: Project[] = [
     title: "Responsive To-Do List App",
     description: "Developed an interactive task management web app with real-time DOM manipulation for task creation, editing, and deletion.",
     technologies: ["HTML", "CSS", "JavaScript", "DOM Manipulation"],
-    githubUrl: "https://github.com/gautam-s-das",
+    githubUrl: "https://github.com/gautam-s-das/todo_Application",
     type: "software-developer"
   },
   {
     id: "4",
-    title: "NFC-Based Student Attendance System",
-    description: "Engineered a contact-less attendance system using NFC technology, enabling efficient data capture and storage for student attendance.",
-    technologies: ["PHP", "MySQL", "NFC Technology", "Database Design"],
+    title: "Cyber-cafe Management System",
+    description: "A Cyber Cafe Management System is software that automates the operations of an internet cafe, including customer registration, workstation management, time tracking, billing, and security.",
+    technologies: ["Django", "MySQL", "HTML","SCSS","Javascript", "Database Design"],
+    githubUrl: "https://github.com/gautam-s-das/Cyber-cafe-management-system",
     type: "software-developer"
   },
   {
     id: "5",
-    title: "Single Page Movie Info Application",
-    description: "Implemented a React-based app using the TMDb API for live movie data retrieval, integrated responsive design and dynamic search functionality.",
-    technologies: ["React.js", "API Integration", "TMDb API", "Responsive Design"],
-    githubUrl: "https://github.com/gautam-s-das",
+    title: "Heart_disease_predctions",
+    description: "Heart disease is a major global health issue affecting the heart and circulatory system, often leading to serious complications.Predicting 85% accuracy of heart disease using machine learning.",
+    technologies: ["Python", "Machine Learning", "Pandas", "Scikit-learn"],
+    githubUrl: "https://github.com/gautam-s-das/Heart_disease_predctions",
+    type: "data-analyst"
+  },
+  {
+    id: "6",
+    title: "Portfolio flex",
+    description: "Personal portfolio built using React and Tailwind CSS. Showcases projects, skills, and experience with a modern, responsive design.",
+    technologies: ['React', 'Tailwind CSS', 'Vercel','vite','TypeScript'],
+    githubUrl: "https://github.com/gautam-s-das/portfolioflex",
     type: "software-developer"
   }
 ];
